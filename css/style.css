@@ -51,18 +51,18 @@
 }
 
 .first_card_class {
-    background-color: crimson;
+    /* background-color: crimson; */
     grid-area: first_card;
 
 }
 
 .second_card_class {
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     grid-area: second_card;
 }
 
 .third_card_class {
-    background-color: deeppink;
+    /* background-color: deeppink; */
     grid-area: third_card;
 }
 
@@ -178,3 +178,31 @@ ul {
     font-size: 16px;
     color: #FFFFFF;
 }
+
+/* ***********3 card*********** */
+
+.cards{
+    /* background-color: #00001A; */
+    display: flex;
+    gap: 10px;
+    padding-right: 9px;
+}
+.card3_content{
+flex-direction: column;
+}
+
+.card3_h5{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.car3_p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #484F5E;
+}
+
