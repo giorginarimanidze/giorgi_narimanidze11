@@ -26,27 +26,28 @@
 }
 
 .background_img_class {
-    background-color: red;
+    /* background-color: red; */
     grid-area: background_img;
 
 }
 
 .black_section_class {
-    background-color: blue;
+    background-color: #00001A;
     grid-area: black_section;
 }
 
 .first_title_class {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     grid-area: first_title;
     margin-top: 20px;
 
 }
 
 .second_title_class {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     grid-area: second_title;
     margin-top: 20px;
+    padding: 1px 0px 0px;
 }
 
 .first_card_class {
@@ -81,19 +82,99 @@ header {
 
 }
 
-.header_logo {
-    width: 48px;
-    height: 48px;
-}
 
 ul {
     display: flex;
     gap: 40px;
 }
 
-.li_a{
+.li_a {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+}
+
+/* ******background img ******* */
+
+.background_img_class {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* **********black secion********** */
+
+.black_section_class {
+    display: flex;
+    flex-direction: column;
+
+    padding: 32px 32px 64px;
+}
+
+.gold_h3 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFA24C;
+    margin-bottom: 24px;
+}
+
+.section_h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FCFCFC;
+
+    margin-bottom: 14px;
+}
+
+.black_p {
+    width: 316px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #B3BFD7;
+}
+
+.certical_line {
+    margin-top: 25px;
+    margin-bottom: 24px;
+
+    width: 316px;
+    height: 2px;
+    border-radius: 30px;
+    background-color: #B3BFD7;
+}
+
+
+
+/* **********2 title********** */
+
+.big_title {
+    width: 281px;
+    height: 144px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.small_title {
+    width: 380px;
+    height: 76px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #484F5E;
+
+}
+
+.button_a .red_button {
+    padding: 15px 54px;
+    background: #F15D51;
+    border: none;
+    margin-top: 35px;
+    font-size: 16px;
+    color: #FFFFFF;
 }
