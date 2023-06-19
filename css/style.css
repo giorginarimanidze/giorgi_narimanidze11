@@ -1,0 +1,71 @@
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 300px 180px 270px;
+    grid-template-areas: 
+    "header header header"
+    "background_img background_img black_section"
+    "first_title second_title black_section"
+    "first_card second_card third_card";
+
+    column-gap: 20px;
+    /* row-gap: 20px; marto headers arundoda gap*/
+    
+
+    padding: 0 130px;
+    
+}
+
+.header_class{
+    background-color: black;
+    grid-area: header;
+}
+
+.background_img_class{
+    background-color: red;
+    grid-area: background_img;
+    
+}
+
+.black_section_class{
+    background-color: blue;
+    grid-area: black_section;
+}
+
+.first_title_class{
+    background-color: chartreuse;
+    grid-area: first_title;
+    margin-top: 20px;
+    
+}
+
+.second_title_class{
+    background-color: blueviolet;
+    grid-area: second_title;
+    margin-top: 20px;
+}
+
+.first_card_class{
+    background-color: crimson;
+    grid-area: first_card;
+    
+}
+
+.second_card_class{
+    background-color: darkcyan;
+    grid-area: second_card;
+}
+
+.third_card_class{
+    background-color: deeppink;
+    grid-area: third_card;
+}
+
+.cards{
+    margin-top: 64px;
+}
